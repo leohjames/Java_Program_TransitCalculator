@@ -1,5 +1,5 @@
+// This program outputs the best priced deal for public transport in New York City given a persons number of days in NYC and how many rides they'll be taking
 public class TransitCalculator {
-
     // Instance fields
     double days;
     double rides;
@@ -55,7 +55,7 @@ public class TransitCalculator {
 
     public static void main(String[] args) {
         // This is how you create a new instance and assign it values that will be its instance fields
-        TransitCalculator number1 = new TransitCalculator(2, 1550);
+        TransitCalculator number1 = new TransitCalculator(15, 35);
         System.out.println(number1.getBestFare());
     }
 }
